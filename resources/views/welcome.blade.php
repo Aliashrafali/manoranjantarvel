@@ -1,9 +1,12 @@
-@php
-    $n = 0;
-@endphp
-
-@if ($n == 10)
-    <h1>{{$n}} is equals to 10</h1>
-@else
-    <h1>{{$n}} is not equals to 10</h1>
-@endif
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Css</title>
+    <link rel="stylesheet" href="{{url('css/main.css')}}"> <!-- Direct Public -->
+</head>
+<body>
+    
+</body>
+</html>
